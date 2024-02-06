@@ -8,20 +8,21 @@
       "user_email": "mario@netninja.dev"
     },
     {
-      "id": "363f",
-      "title": "bvcn",
-      "body": "nbn",
+      "id": "a7c0",
+      "title": "aaa",
+      "body": "f",
       "tags": "",
       "user_email": "moran@besafe.dev"
     },
     {
-      "id": "ed5d",
-      "title": "vfcb",
-      "body": "bvb",
+      "id": "fc2a",
+      "title": "bb",
+      "body": "d",
       "tags": "",
       "user_email": "moran@besafe.dev"
     },
     {
+<<<<<<< HEAD
       "id": "bd90",
       "title": "cvc",
       "body": "bvc",
@@ -60,15 +61,37 @@
       "id": "15c9",
       "title": "ttttttttttt",
       "body": "fbf",
+=======
+      "id": "7881",
+      "title": "cc",
+      "body": "d",
+>>>>>>> 0707b1137dbac89f93a7454e38eedf20afdaa71b
       "tags": "",
       "user_email": "moran@besafe.dev"
     }
   ],
   "comments": [
     {
-      "id": "dfdsf",
+      "id": "1",
       "postId": "1",
-      "body": "be safe",
+      "body": "be safe4",
+      "user_email": ""
+    },
+    {
+      "id": "431",
+      "postId": "1",
+      "body": "be safe3",
+      "user_email": ""
+    },   {
+      "id": "41",
+      "postId": "6",
+      "body": "be safe2",
+      "user_email": ""
+    },
+    {
+      "id": "22222",
+      "postId": "2",
+      "body": "be",
       "user_email": ""
     }
   ]

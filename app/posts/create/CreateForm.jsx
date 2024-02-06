@@ -57,8 +57,9 @@ export default function CreateForm() {
         >
           <option value="low">Fishing</option>
           <option value="medium">Grooming</option>
-          <option value="high">Credit Card</option>
-          <option value="high">Bullying</option>
+          <option value="high">Sexual Harassment </option>
+          <option value="high">Cyberbullying</option>
+          <option value="high">Misinformation</option>
         </select>
       </label>
       <button 
