@@ -50,9 +50,7 @@ export default async function PostDetails({ params }) {
 
   return (
     <main>
-      <nav>
-        <h2>Post Details</h2>
-      </nav>
+      <h2>Post Details</h2>
       <div className="card">
         <h3>{post.title}</h3>
         <p>{post.body}</p>
