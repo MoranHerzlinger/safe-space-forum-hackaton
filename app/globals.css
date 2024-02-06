@@ -7,11 +7,14 @@
 
 /* base styles */
 body {
-  background: #ebf0fa;
+  /* background: #ebf0fa; */
+  background-image: url(background.png);
+  background-size: cover; 
   @apply text-gray-500 m-8;
 }
 h1, h2 {
   @apply font-bold text-primary text-lg;
+  color:#8dc4ca;
 }
 main {
   @apply max-w-5xl my-12 mx-auto px-8;
