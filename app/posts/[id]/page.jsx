@@ -1,3 +1,4 @@
+'use client'
 import { notFound } from "next/navigation"
 
 export const dynamicParams = true // default val = true
@@ -23,13 +24,27 @@ async function getPosts(id) {
     notFound()
   }
 
+
   return res.json()
+}
+
+//get comments
+async function getComments(id) {
+  const res = await fetch(`http://localhost:4000/comments`);
+  const comments = await res.json();
+
+  // Filter comments based on the provided postId
+  const commentsForPost = comments.filter(comment => comment.postId === id);
+
+  return commentsForPost;
 }
 
 
 export default async function PostDetails({ params }) {
 
   const post = await getPosts(params.id)
+  const comments = await getComments(params.id);
+
 
   return (
     <main>
@@ -38,12 +53,26 @@ export default async function PostDetails({ params }) {
       </nav>
       <div className="card">
         <h3>{post.title}</h3>
-        <small>Created by {post.user_email}</small>
         <p>{post.body}</p>
         <div className={`pill ${post.tags}`}>
-          {post.tags} tags
+          #{post.tags} 
         </div>
       </div>
+      <div>
+        
+      </div>
+      <section>
+        <h2>Comments</h2>
+        <ul>
+          {comments.map((comment) => (
+            <div className="card">
+            <li key={comment.id}>
+              <p>{comment.body}</p>
+            </li>
+            </div>
+          ))}
+        </ul>
+      </section>
     </main>
   )
 }
