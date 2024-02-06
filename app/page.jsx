@@ -1,27 +1,44 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import { Suspense } from "react";
+import Loading from "./loading"
+import GetPostsByIdList from "./posts/PostByIdList"
 
-export default function Home() {
+
+function PostsById() {
+  const userEmail = "shahaf@gmail.com"
   return (
     <main>
-      <h2>Dashboard</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repellendus tempore, exercitationem odit, quasi doloremque possimus recusandae alias sequi totam soluta natus iure eius, obcaecati sint dolores blanditiis aspernatur quo officia iusto ut. Et, aliquid sed voluptates iste cum totam, facere explicabo, fugit suscipit ratione aspernatur consequuntur ex mollitia quaerat?</p>
+      {/* <nav>
+        <div>
+          <h2>Posts</h2>
+          <p><small>Read and Learn</small></p>
+        </div>
+      </nav> */}
+      <Suspense fallback={<Loading />}>
+        <GetPostsByIdList {...userEmail}/>
+      </Suspense>
+    </main>
+  )
+}
 
+
+export default function Home() {
+  
+  return (
+    <main>
+      <h2>Moran Dashboard</h2>
       <div className="flex justify-center my-8">
+        <p>Hi Moran! welcome to our "Safe Space Forum"! Here you can share and help others whenever you feel uncomfortable online.
+          We ask to maintain respect towards others and appropriate language.
+          Thank you and we hope we helped you </p>
+      </div>
+      {/* <div className="flex justify-center my-8">
         <Link href="/posts">
           <button className="btn-primary">View Posts</button>
         </Link>
-      </div>
-
-      <h2>Company Updates</h2>
-
-      <div className="card">
-        <h3>New member of the web dev team...</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti.</p>
-      </div>
-      <div className="card">
-        <h3>New website live!</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti, assumenda distinctio adipisci, cupiditate minima eum vitae? Similique dicta est facilis debitis, autem temporibus quo repellat illum unde id iste veritatis eveniet, aspernatur enim quas.</p>
-      </div>
+      </div> */}
+      <h2>Your Posts</h2>
+      <PostsById />
     </main>
   )
 }
