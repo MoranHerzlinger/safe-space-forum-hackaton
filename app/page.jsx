@@ -26,7 +26,7 @@ export default function Home() {
   
   return (
     <main>
-      <h2>Moran Dashboard</h2>
+      <h2>Moran's Dashboard</h2>
       <div className="flex justify-center my-8">
         <p>Hi Moran! welcome to our "Safe Space Forum"! Here you can share and help others whenever you feel uncomfortable online.
           We ask to maintain respect towards others and appropriate language.
