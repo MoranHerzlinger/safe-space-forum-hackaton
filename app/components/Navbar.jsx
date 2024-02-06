@@ -14,8 +14,8 @@ export default function Navbar() {
       />
       
       <Link href="/">Dashboard</Link>
-      <Link href="/tickets">Tickets</Link>
-      <Link href="/tickets/create">New Ticket</Link>
+      <Link href="/posts">Posts</Link>
+      <Link href="/posts/create">New Post</Link>
     </nav>
   )
 }
