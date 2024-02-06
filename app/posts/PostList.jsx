@@ -19,13 +19,13 @@ async function getPosts() {
   
     return (
       <>
-        {posts.map((post) => (
+        {posts.reverse().map((post) => (
           <div key={post.id} className="card my-5">
             <Link href={`/posts/${post.id}`}>
               <h3>{post.title}</h3>
               <p>{post.body.slice(0, 200)}...</p>
               <div className={`pill ${post.tags}`}>
-                {post.tags} tags
+                #{post.tags}
               </div>
             </Link>
           </div>
