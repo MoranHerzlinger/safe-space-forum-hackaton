@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from './space-logo.png'
+import Logo from './Logo-new.png'
 import style from './navbar.module.css'
 
 export default function Navbar() {

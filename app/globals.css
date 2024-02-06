@@ -7,12 +7,19 @@
 
 /* base styles */
 body {
-  background: #ebf0fa;
+  /* background: #ebf0fa; */
+  background-image: url(backgorund-light.png);
+  background-size: cover;
+  font-family: cursive;
   @apply text-gray-500 m-8;
 }
 h1, h2 {
   @apply font-bold text-primary text-lg;
+  color:#8dc4ca;
+  font-family: cursive;
+  text-align: left;
 }
+
 main {
   @apply max-w-5xl my-12 mx-auto px-8;
 }
@@ -23,6 +30,10 @@ p > a {
   @apply text-primary underline;
 }
 
+.text-primary{
+  color:#8dc4ca
+}
+
 /* nav styles */
 nav {
   @apply
@@ -31,6 +42,9 @@ nav {
     flex items-center gap-5 
     my-10 mx-auto 
     max-w-5xl;
+  font-family: cursive;
+  text-align: center;
+  margin: 0 20px;
 }
 nav a, nav span {
   @apply text-gray-500;
@@ -39,6 +53,7 @@ nav a, nav span {
   font-family: u-i-rounded;
   font-weight: 400; 
   font-style: normal;
+  margin: 0 20px;
 }
 nav a:hover {
   @apply text-black;
@@ -46,7 +61,9 @@ nav a:hover {
 main nav {
   @apply border-0;
 }
-
+.text-center{
+  font-size: 23px
+}
 
 /* button styles */
 button {
@@ -123,6 +140,7 @@ form button {
   @apply 
     font-bold text-gray-700 text-sm 
     mb-0;
+    color:#8dc4ca;
 }
 .card p {
   @apply my-4 text-sm leading-6;
@@ -150,3 +168,9 @@ form button {
     rounded-tl-md;
 }
 
+.headlines{
+  font-size: 30px;
+  font-family: cursive;
+  text-align: left;
+  margin: 0 20px;
+}
