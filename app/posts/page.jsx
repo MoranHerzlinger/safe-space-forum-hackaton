@@ -8,7 +8,7 @@ export default function Posts() {
     <main>
       <nav>
         <div>
-          <h2>Posts</h2>
+          <h2 className='headlines'>Posts</h2>
         </div>
       </nav>
       <Suspense fallback={<Loading />}>

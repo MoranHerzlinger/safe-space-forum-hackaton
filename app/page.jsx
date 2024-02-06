@@ -26,7 +26,7 @@ export default function Home() {
   
   return (
     <main>
-      <h2>Moran's Dashboard</h2>
+      <h2 className='headlines'>Moran's Dashboard</h2>
       <div className="flex justify-center my-8">
         <p>Hi Moran! welcome to our "Safe Space Forum"! Here you can share and help others whenever you feel uncomfortable online.
           We ask to maintain respect towards others and appropriate language.
@@ -37,7 +37,7 @@ export default function Home() {
           <button className="btn-primary">View Posts</button>
         </Link>
       </div> */}
-      <h2>Your Posts</h2>
+      <h2 className='headlines'>Your Posts</h2>
       <PostsById />
     </main>
   )
