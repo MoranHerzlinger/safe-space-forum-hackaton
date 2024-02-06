@@ -9,7 +9,6 @@ export default function Posts() {
       <nav>
         <div>
           <h2>Posts</h2>
-          <p><small>Read and Learn</small></p>
         </div>
       </nav>
       <Suspense fallback={<Loading />}>

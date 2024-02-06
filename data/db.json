@@ -2,86 +2,18 @@
   "posts": [
     {
       "id": "1",
-      "title": "Fix the footer links please",
-      "body": "put credit card",
+      "title":"אינסטגרם",
+      "body": "היי היום העלתי תמונה לאינסטגרם וכל הילדים מהכיתה הגיבו לי תגובות מעליבות",
       "tags": "fishing",
       "user_email": "shahaf@gmail.com"
-    },
-    {
-      "id": "a7c0",
-      "title": "aaa",
-      "body": "f",
-      "tags": "",
-      "user_email": "moran@besafe.dev"
-    },
-    {
-      "id": "fc2a",
-      "title": "bb",
-      "body": "d",
-      "tags": "",
-      "user_email": "moran@besafe.dev"
     }
   ],
   "comments": [
     {
       "id": "1",
       "postId": "1",
-      "body": "be safe4",
+      "body": "תתעלמי מהם!! הם ממש לא בסדר. אולי תראי למחנכת בבית ספר שתדבר עם הילדים?",
       "user_email": ""
-    },
-    {
-      "id": "431",
-      "postId": "1",
-      "body": "be safe3",
-      "user_email": ""
-    },
-    {
-      "id": "41",
-      "postId": "6",
-      "body": "be safe2",
-      "user_email": ""
-    },
-    {
-      "id": "22222",
-      "postId": "2",
-      "body": "be",
-      "user_email": ""
-    },
-    {
-      "id": "95b4",
-      "postId": "1",
-      "body": "lol",
-      "user_email": "moran@besafe.dev"
-    },
-    {
-      "id": "1b09",
-      "postId": "1",
-      "body": "hi",
-      "user_email": "moran@besafe.dev"
-    },
-    {
-      "id": "3822",
-      "postId": "1",
-      "body": "t",
-      "user_email": "moran@besafe.dev"
-    },
-    {
-      "id": "9e0c",
-      "postId": "1",
-      "body": "oooo",
-      "user_email": "moran@besafe.dev"
-    },
-    {
-      "id": "1c05",
-      "postId": "1",
-      "body": "uuuuuuuuuuu",
-      "user_email": "moran@besafe.dev"
-    },
-    {
-      "id": "c5a4",
-      "postId": "1",
-      "body": "bbbbbbbbbbb",
-      "user_email": "moran@besafe.dev"
     }
   ]
 }
