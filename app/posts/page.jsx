@@ -1,18 +1,19 @@
+'Use Client'
 import { Suspense } from "react"
-import TicketList from "./TicketList"
+import PostList from "./PostList"
 import Loading from "../loading"
 
-export default function Tickets() {
+export default function Posts() {
   return (
     <main>
       <nav>
         <div>
-          <h2>Tickets</h2>
-          <p><small>Currently open tickets.</small></p>
+          <h2>Posts</h2>
+          <p><small>Read and Learn</small></p>
         </div>
       </nav>
       <Suspense fallback={<Loading />}>
-        <TicketList />
+        <PostList />
       </Suspense>
     </main>
   )

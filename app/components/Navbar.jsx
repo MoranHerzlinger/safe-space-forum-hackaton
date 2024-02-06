@@ -14,10 +14,9 @@ export default function Navbar() {
         quality={100}
         className={style.logo}
       />
-      
-      <Link href="/">Dashboard </Link>
-      <Link href="/tickets">Tickets</Link>
-      <Link href="/tickets/create">New Ticket</Link>
+      <Link href="/">Dashboard</Link>
+      <Link href="/posts">Posts</Link>
+      <Link href="/posts/create">New Post</Link>
     </nav>
   )
 }
