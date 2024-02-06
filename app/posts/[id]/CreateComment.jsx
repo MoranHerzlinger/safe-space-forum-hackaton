@@ -11,7 +11,7 @@ export default function CreateComment({postId, getComment }) {
 
   
   const handleSubmit = async (e)  => {
-    e.preventDefault()
+    //e.preventDefault()
     const newComment = {postId, body, user_email: 'moran@besafe.dev' }
 
     const res = await fetch('http://localhost:4000/comments', {
@@ -23,7 +23,7 @@ export default function CreateComment({postId, getComment }) {
     
 
     if (res.status >= 200 && res.status <= 300) {
-      router.push(`/posts/${postId}`);
+    //  router.push(`/posts/${postId}`);
       setBody('');
 
     }

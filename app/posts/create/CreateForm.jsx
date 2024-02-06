@@ -55,11 +55,11 @@ export default function CreateForm() {
           onChange={(e) => setTags(e.target.value)}
           value={tags}
         >
-          <option value="low">Fishing</option>
-          <option value="medium">Grooming</option>
-          <option value="high">Sexual Harassment </option>
-          <option value="high">Cyberbullying</option>
-          <option value="high">Misinformation</option>
+          <option value="Fishing">Fishing</option>
+          <option value="Grooming">Grooming</option>
+          <option value="SexualHarassment">Sexual Harassment </option>
+          <option value="Cyberbullying">Cyberbullying</option>
+          <option value="Misinformation">Misinformation</option>
         </select>
       </label>
       <button 

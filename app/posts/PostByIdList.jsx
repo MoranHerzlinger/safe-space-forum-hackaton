@@ -27,7 +27,7 @@ await new Promise(resolve => setTimeout(resolve,1200))
               <h3>{post.title}</h3>
               <p>{post.body.slice(0, 200)}...</p>
               <div className={`pill ${post.tags}`}>
-                {post.priority} tags
+                #{post.tags}
               </div>
             </Link>
           </div>

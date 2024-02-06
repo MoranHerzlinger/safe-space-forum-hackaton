@@ -2,10 +2,17 @@
   "posts": [
     {
       "id": "1",
-      "title":"אינסטגרם",
+      "title": "אינסטגרם",
       "body": "היי היום העלתי תמונה לאינסטגרם וכל הילדים מהכיתה הגיבו לי תגובות מעליבות",
-      "tags": "fishing",
+      "tags": "Fishing",
       "user_email": "shahaf@gmail.com"
+    },
+    {
+      "id": "baec",
+      "title": "דוגמה",
+      "body": "דוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמהדוגמה",
+      "tags": "Grooming",
+      "user_email": "moran@besafe.dev"
     }
   ],
   "comments": [
@@ -14,6 +21,18 @@
       "postId": "1",
       "body": "תתעלמי מהם!! הם ממש לא בסדר. אולי תראי למחנכת בבית ספר שתדבר עם הילדים?",
       "user_email": ""
+    },
+    {
+      "id": "89a9",
+      "postId": "1",
+      "body": "יהיה בסדר!",
+      "user_email": "moran@besafe.dev"
+    },
+    {
+      "id": "9a0f",
+      "postId": "1",
+      "body": "הם סתם מקנאים, את שווה יותר ",
+      "user_email": "moran@besafe.dev"
     }
   ]
 }
