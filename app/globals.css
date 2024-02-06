@@ -174,3 +174,18 @@ form button {
   text-align: left;
   margin: 0 20px;
 }
+.try{ /*image*/
+  position: absolute; /* or absolute or fixed, depending on your layout */
+  z-index: 1;
+  width: 15%;
+  top: 25%;
+  right: 7%;
+}
+
+.text{ /*paragraph*/
+  position: relative;
+  border: solid #8dc4ca;
+  padding: 15px 50px;
+  border-radius: 10px;
+  font-family: cursive;
+}
