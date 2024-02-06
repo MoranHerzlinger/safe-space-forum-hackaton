@@ -1,7 +1,9 @@
+'use client'
 import Link from "next/link"
 
 async function getPosts() {
-await new Promise(resolve => setTimeout(resolve,1200))
+  console.log("get posts call")
+  await new Promise(resolve => setTimeout(resolve,0))
     //imitate delay
     const res = await fetch('http://localhost:4000/posts', {
       next: {
@@ -23,7 +25,7 @@ await new Promise(resolve => setTimeout(resolve,1200))
               <h3>{post.title}</h3>
               <p>{post.body.slice(0, 200)}...</p>
               <div className={`pill ${post.tags}`}>
-                {post.priority} tags
+                {post.tags} tags
               </div>
             </Link>
           </div>

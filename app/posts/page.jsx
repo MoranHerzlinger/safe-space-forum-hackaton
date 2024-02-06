@@ -1,3 +1,4 @@
+'Use Client'
 import { Suspense } from "react"
 import PostList from "./PostList"
 import Loading from "../loading"
