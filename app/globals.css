@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/bubbly-2');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
 
 /* base styles */
 body {
@@ -14,7 +17,7 @@ main {
   @apply max-w-5xl my-12 mx-auto px-8;
 }
 main > h2 {
-  @apply mb-4 pb-2 text-base ;
+  @apply mb-4 pb-2 text-base;
 }
 p > a {
   @apply text-primary underline;
@@ -31,6 +34,11 @@ nav {
 }
 nav a, nav span {
   @apply text-gray-500;
+  color: #8dc4ca;
+  font-size: 25px;
+  font-family: u-i-rounded;
+  font-weight: 400; 
+  font-style: normal;
 }
 nav a:hover {
   @apply text-black;
@@ -39,6 +47,7 @@ main nav {
   @apply border-0;
 }
 
+
 /* button styles */
 button {
   @apply 
@@ -46,12 +55,14 @@ button {
     rounded-sm 
     flex justify-between items-center gap-2
     text-sm;
+  background-color: #8dc4ca;
 }
 button:hover {
   @apply bg-opacity-90;
 }
 .btn-primary {
-  @apply bg-primary text-white;
+  @apply bg-cyan-500	 text-white;
+  background-color: #8dc4ca;
 }
 .btn-secondary {
   @apply bg-gray-200 text-gray-900;
@@ -61,12 +72,13 @@ button:hover {
 form {
   @apply 
     py-4 px-7 
-    bg-primary 
+    bg-rose-300
     bg-opacity-5 
-    rounded-md 
+    rounded-lg
     block 
     mx-auto 
     min-w-fit w-1/4;
+    background-color: #a8dde0
 }
 form label {
   @apply block;
@@ -137,3 +149,4 @@ form button {
     absolute bottom-0 right-0 
     rounded-tl-md;
 }
+

@@ -1,6 +1,6 @@
 import './globals.css'
 import { Rubik } from 'next/font/google'
-
+import style from 'app/components/navbar.module.css'
 // components
 import Navbar from './components/Navbar'
 
@@ -13,6 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+
     <html lang="en">
       <body className={rubik.className}>
         <Navbar />
