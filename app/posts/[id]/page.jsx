@@ -49,7 +49,7 @@ export default async function PostDetails({ params }) {
   return (
     <main>
       <nav>
-        <h2>Post Details</h2>
+        <h2 className="headlines">Post Details</h2>
       </nav>
       <div className="card">
         <h3>{post.title}</h3>
@@ -62,7 +62,7 @@ export default async function PostDetails({ params }) {
         
       </div>
       <section>
-        <h2>Comments</h2>
+        <h2 className="headlines">Comments</h2>
         <ul>
           {comments.map((comment) => (
             <div className="card">
